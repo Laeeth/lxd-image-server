@@ -28,7 +28,9 @@ def generate_cert(path):
     )
 
     name = x509.Name([
-        x509.NameAttribute(NameOID.COMMON_NAME, u"lxd-image-server.localhost")])
+        x509.NameAttribute(
+            NameOID.COMMON_NAME, u"lxd-image-server.localhost")]
+                     )
 
     now = datetime.utcnow()
     basic_contraints = x509.BasicConstraints(ca=True, path_length=0)

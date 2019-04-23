@@ -1,6 +1,7 @@
 Lxd-image-server
 ================
 [![Build Status](https://travis-ci.org/Avature/lxd-image-server.svg?branch=master)](https://travis-ci.org/Avature/lxd-image-server)
+[![Coverage Status](https://coveralls.io/repos/github/Avature/lxd-image-server/badge.svg?branch=master)](https://coveralls.io/github/Avature/lxd-image-server?branch=master)
 
 Creates and manages a simplestreams lxd image server on top of nginx.
 If installed as a debian package, a new service is created and it monitors
@@ -205,7 +206,7 @@ update-ca-certificates
 systemctl restart lxd
 ```
 
-Also, you can use https://letsencrypt.org/ and makes easer use your server.
+Also, you can use https://letsencrypt.org/ to make your server easier to set up.
 
 ### Publish a new image ###
 

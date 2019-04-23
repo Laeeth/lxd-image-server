@@ -1,3 +1,5 @@
 mock
 pyHamcrest
 pytest
+pytest-cov==2.5.1
+pytest-pep8

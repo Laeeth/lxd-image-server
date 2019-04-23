@@ -7,7 +7,6 @@ export DH_VIRTUALENV_INSTALL_ROOT=/opt
 export DH_VIRTUALENV_ARGUMENTS :=  --python python3
 
 %:
-		#dh $@ --with python-virtualenv
 		dh $@ --buildsystem=dh_virtualenv
 
 override_dh_virtualenv:
